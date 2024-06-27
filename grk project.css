@@ -1,0 +1,264 @@
+body{
+    @media  ( min-width: 0px) and (max-width: 500px) {
+    background-color: lightgrey;
+    /* mobile */
+        
+    }
+    @media  ( min-width: 501px) and (max-width: 768px) {
+        background-color: lightcyan;
+        /* tabs */
+    }
+    @media  ( min-width: 769px) and (max-width: 1200px) {
+        /* windows */
+    }
+    @media  ( min-width: 1201px)  {
+        background-color: lightblue;
+        /* Large Screen */
+    }
+    
+}
+/* Start Our Organics */
+.velu{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+span{
+    color: white;
+    background-color:orangered ;
+    border-radius: 12px;
+    padding: 5px;
+}
+.velu a{
+    text-decoration: none;
+    padding: 30px;
+    display:inline;
+    color: burlywood;
+}
+.velu a:nth-child(1){
+    color:blue;
+    font-size: 20px;
+}
+.first{
+    text-align: center;
+    height: 230px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+/* End Our Organics */
+/* Start Our Features */
+.ganga{
+    width: auto;
+    height: 500px;
+    margin: 0 200px;
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+.headings{
+    text-align: center;
+}
+.gn{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 0 4px green;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+.gn:hover{
+    transform: scale(1.1,1.1);
+}
+.gn img{
+    width: inherit;
+    height: inherit;
+}
+.payment{
+    color: orangered;
+}
+.payment1{
+    color: blueviolet;
+}
+/* End Our Features */
+/*Start Our Pruduct */
+.ganga1{
+    width: auto;
+    height: 1050px;
+    margin: 0 200px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,120px);
+    grid-template-rows: repeat(3,130px);
+    grid-gap:220px;
+}
+/* orenge */
+.gn1{
+width: 200px;
+height: 200px;
+text-align: center;
+box-shadow: 0 0 3px green;
+font-size: 20px;
+margin-top: 10px;
+transition: all 0.3s;
+}
+.gn1 img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+}
+.gn1:hover{
+    transform: scale(1.1,1.1);
+}
+/* End Our Products */
+/*Start Product Categeries */
+.ganga2{
+    width: auto;
+    height: 360px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(4,40px);
+    grid-template-columns: repeat(4,40px);
+    grid-gap:190px;
+}
+.gn2{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 3px green;
+    font-size: 20px;
+    background-color: rgb(189, 240, 193);
+    transition: all 0.4s;
+    text-align: center;
+}
+.gn2:hover{
+    transform: scale(1.1,1.1);
+}
+.gn2 img{
+    width: inherit;
+    height: inherit;
+}
+.Big{
+    width: auto;
+    height: 940px;
+    margin:  0 200px;
+}
+/*End Product Categeries */
+/*  Start Custemer Reviews */
+.ganga3{
+    width: auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(4,40px);
+    grid-gap:190px;
+    padding: 20px;
+}
+.gn3{
+    width: 193px;
+    height: 400px;
+    box-shadow: 0 0 4px blue;
+    text-align: center;
+    background-color: rgb(181, 241, 241);
+    transition: all 0.4s;
+
+}
+.gn3:hover{
+    transform: scale(1.1,1.1);
+}
+.gn31{
+    width: 192px;
+    height: 400px;
+    box-shadow: 0 0 4px blue;
+    text-align: center;
+    background-color: rgb(181, 241, 241);
+    transition: all 0.4s;
+}
+.gn31:hover{
+    transform: scale(1.1,1.1);
+}
+.john img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+/* End Custermer Reviews */
+/* Start Our Blogs */
+.Big1{
+    width: auto;
+    height: 500px;
+    margin:  0 200px;
+    /* box-shadow: 0 0 4px red; */
+}
+.ganga4{
+    width: auto;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(3,50px);
+    grid-gap:250px;
+    padding: 20px;
+}
+.gn41{
+    width: 270px;
+    height: 450px;
+    box-shadow: 0 0 3px rgb(32, 32, 206);
+    padding: 10px;
+    transition: all 0.4s;
+}
+.gn41:hover{
+    transform: scale(1.1,1.1)
+}
+.vegitable{
+    width: 270px;
+    height: 270px;
+}
+.vegitable img{
+    width: inherit;
+    height: inherit;
+}
+/* End Our Blogs */
+/* Start  with custemer Care */
+.ganga5{
+    width: auto;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(4,40px);
+    grid-gap:200px;
+    padding: 10px;
+}
+.gn51{
+    width: 200px;
+    height: 300px;
+    /* transition: all 0.4s; */
+}
+.gn51 a{
+    text-decoration: none;
+}
+.gn51 p{
+    transition: all 0.3s;
+}
+.gn51 p:hover{
+    transform: scale(1.1,1.1);
+    color: blue;
+}
+.Big2{
+    width: auto;
+    height: 300px;
+    margin: 0 200px;
+}
+.star{
+    display: inline;
+    color: blue;
+
+}
+/* End Custemer Care */
+#fruit1 #like4:hover{
+    color: red;
+    background-color: white;
+    overflow: hidden;
+}
+
+/* .grocery:hover{
+transform: scale(1.2,1.2);
+} */
